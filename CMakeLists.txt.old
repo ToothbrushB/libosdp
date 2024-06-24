@@ -35,8 +35,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_WARN_DEPRECATED ON)
 
-option(CONFIG_OSDP_STATIC_PD "Setup PD single statically" ON)
-option(CONFIG_OSDP_LIB_ONLY "Only build the library" ON)
+option(CONFIG_OSDP_STATIC_PD "Setup PD single statically" OFF)
+option(CONFIG_OSDP_LIB_ONLY "Only build the library" OFF)
 
 # Each subdirectory has it's own CMakeLists.txt
 include(GitSubmodules)
